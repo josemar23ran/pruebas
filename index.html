@@ -3,91 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - José Martínez</title>
-  <style>
-    body {
-      font-family: 'Times New Roman', serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      background-color: #f8f8f8;
-      color: #222;
-    }
-    h1, h2 {
-      border-bottom: 1px solid #999;
-      padding-bottom: 5px;
-    }
-    p, ul {
-      margin-bottom: 10px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .info {
-      font-size: 0.95em;
-      line-height: 1.6em;
-    }
-  </style>
+  <title>Portafolio - José Martínez</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>JOSÉ CARMEN MARTÍNEZ RANGEL</h1>
-  <div class="info">
-    <p>
-      C. Primavera Mz1 Lt18, Col. Lomas de Totolco, Chimalhuacán, Edo. Mex. 56337<br>
-      Tel: 5541073215 | Email: marttinezrangel@gmail.com<br>
-      GitHub: <a href="https://github.com/josemar23ran" target="_blank">github.com/josemar23ran</a><br>
-      RFC: MARC970823G43 | N.S.S: 96159717618
-    </p>
+  <div class="portfolio-container">
+    <header class="header">
+      <div class="photo-placeholder">
+        <p>Foto Aquí</p>
+      </div>
+      <div class="intro">
+        <h1>José Carmen Martínez Rangel</h1>
+        <p class="tagline">Desarrollador | Ingeniero en Computación | Automatización</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="bio">
+        <p>
+          Soy Ingeniero en Comunicaciones y Electrónica (pasante) con especialidad en Computación. Me apasiona crear soluciones de software, automatizar procesos, y explorar el potencial de la tecnología en el análisis técnico y redes.
+        </p>
+        <p>
+          He trabajado en sistemas de respaldo automatizados, monitoreo de infraestructura y desarrollo web con integración de control por voz. Mis herramientas principales incluyen Python, PHP, JavaScript y SQL Server.
+        </p>
+        <p>
+          Me adapto fácilmente a entornos cambiantes, combinando conocimientos de desarrollo, redes y electrónica para aportar soluciones eficientes e innovadoras.
+        </p>
+      </section>
+
+      <section class="buttons">
+        <a href="https://github.com/josemar23ran" target="_blank">GitHub</a>
+        <a href="#" onclick="verProyectos()">Ver Proyectos</a>
+        <a href="mailto:marttinezrangel@gmail.com">Contáctame</a>
+      </section>
+    </main>
   </div>
-
-  <h2>Objetivo Profesional</h2>
-  <p>Ingeniero en Comunicaciones y Electrónica (pasante) con especialidad en Computación. Experiencia en desarrollo de software, automatización de procesos, monitoreo de redes y mantenimiento de infraestructura. Busco una posición como desarrollador donde pueda aplicar mis conocimientos técnicos para optimizar soluciones empresariales.</p>
-
-  <h2>Experiencia Laboral</h2>
-  <p><strong>Ingeniero NOC – Password (2025 – Actualidad)</strong></p>
-  <ul>
-    <li>Desarrollo de scripts en Python para respaldos automatizados (SSH/Web) de equipos de red y videoconferencia.</li>
-    <li>Automatización de reportes de salud (CPU, memoria, tráfico, almacenamiento) vía Observium.</li>
-    <li>Generación automática de inventarios de equipos por localidad mediante Python.</li>
-  </ul>
-
-  <p><strong>Soporte Técnico Satelital – Financiera para el Bienestar (2024)</strong></p>
-  <ul>
-    <li>Monitoreo de canales de TV vía satélite y configuración de parámetros de transmisión.</li>
-    <li>Integración de equipos en redes LAN para monitoreo y control.</li>
-  </ul>
-
-  <p><strong>Desarrollador Full Stack – Proyecto Personal (2023)</strong></p>
-  <ul>
-    <li>Desarrollo de sistema CRUD de inventarios en PHP y SQL Server, con login y control de usuarios.</li>
-    <li>El sistema contaba con funcionalidad de control por comandos de voz mediante JavaScript.</li>
-  </ul>
-
-  <h2>Formación Académica</h2>
-  <ul>
-    <li><strong>Ingeniería en Comunicaciones y Electrónica (pasante)</strong> – ESIME-IPN, CDMX | 2015–2024</li>
-    <li><strong>Técnico en Electrónica</strong> – CECyTEM, Edo. de México | 2012–2015</li>
-  </ul>
-
-  <h2>Cursos y Certificaciones</h2>
-  <ul>
-    <li>Curso 1 y 2 de Python impartidos por Cisco Networking Academy</li>
-  </ul>
-
-  <h2>Habilidades Técnicas</h2>
-  <ul>
-    <li>Lenguajes: Python, PHP, JavaScript, HTML, CSS, C, C++</li>
-    <li>Herramientas: SQL Server, Git, Tesseract OCR, Arduino</li>
-    <li>Redes: LAN/VLAN, Cisco Packet Tracer, cableado estructurado</li>
-    <li>Electrónica: Diseño e interpretación de diagramas, integración de hardware</li>
-    <li>Automatización y monitoreo: Scripts en Python, Observium, OCR</li>
-  </ul>
-
-  <h2>Idiomas y Competencias</h2>
-  <ul>
-    <li>Excelente comunicación oral y escrita</li>
-    <li>Trabajo en equipo y atención técnica a usuarios</li>
-    <li>Capacidad de adaptación y aprendizaje autónomo</li>
-  </ul>
+  <script src="script.js"></script>
 </body>
 </html>
