@@ -52,6 +52,17 @@ body {
 .main-content {
   margin-top: 30px;
 }
+.conocimientos{
+  display: flex;
+}
+
+.mitad{
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
 
 .bio p {
   margin-bottom: 15px;
