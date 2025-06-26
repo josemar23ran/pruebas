@@ -14,7 +14,13 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,255,255,0.2);
 }
-
+.foto{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  ;
+}
 .header {
   display: flex;
   flex-wrap: wrap;
